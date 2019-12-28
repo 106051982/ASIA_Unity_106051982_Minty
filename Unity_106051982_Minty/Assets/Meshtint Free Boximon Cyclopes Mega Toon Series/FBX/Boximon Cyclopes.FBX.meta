@@ -274,7 +274,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 15
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -462,57 +462,57 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: RigLArm1Gizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: -0.36017925, y: 0.51479924, z: -0.14383376}
+      position: {x: -5.4026875, y: 7.7219877, z: -2.1575062}
       rotation: {x: 0.71577346, y: 0.003346064, z: 0.037726045, w: 0.69730484}
       scale: {x: 1, y: 1, z: 0.99999994}
     - name: RigLArm2Gizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: -0.5004597, y: 0.5067237, z: -0.15077512}
+      position: {x: -7.506894, y: 7.6008525, z: -2.2616262}
       rotation: {x: 0.71017134, y: 0.034779318, z: -0.006781314, w: 0.7031366}
       scale: {x: 0.99999964, y: 1.0000002, z: 1}
     - name: RigLArmPalmGizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: -0.6243985, y: 0.50177073, z: -0.14350136}
+      position: {x: -9.365975, y: 7.526558, z: -2.15252}
       rotation: {x: 0.999939, y: -0.0034327381, z: -0.0010586566, w: -0.010444968}
       scale: {x: 0.9999998, y: 1.0000001, z: 1}
     - name: RigLLegPlatform
       parentName: Boximon Main Rig(Clone)
-      position: {x: -0.21196505, y: -1.0762596e-14, z: -0.000000109881846}
+      position: {x: -3.179475, y: -1.6143891e-13, z: -0.0000016482272}
       rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
       scale: {x: 1, y: 1, z: 1}
     - name: RigPelvis
       parentName: Boximon Main Rig(Clone)
-      position: {x: 3.569714e-14, y: 0.1712148, z: -0.00000013477933}
+      position: {x: 5.35457e-13, y: 2.5682213, z: -0.0000020216892}
       rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
       scale: {x: 1, y: 1, z: 1}
     - name: RigLLeg1
       parentName: RigPelvis
-      position: {x: -0.0054754834, y: 0.000000028607342, z: 0.20675258}
+      position: {x: -0.08213224, y: 0.00000042911003, z: 3.1012874}
       rotation: {x: 0.022984939, y: 0.99876845, z: -0.04346783, w: -0.0066195135}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: RigLLeg2
       parentName: RigLLeg1
-      position: {x: -0.077970944, y: 0.000000009536746, z: -0.000000038146982}
+      position: {x: -1.169564, y: 0.00000014305115, z: -0.0000005722046}
       rotation: {x: -0.035737947, y: -0.030685652, z: 0.13797404, w: 0.9893151}
       scale: {x: 0.9999999, y: 0.9999998, z: 1.0000002}
     - name: RigLLegAnkle
       parentName: RigLLeg2
-      position: {x: -0.0828524, y: 0.000000004768373, z: 0.000000019073491}
+      position: {x: -1.2427857, y: 0.00000007152558, z: 0.0000002861023}
       rotation: {x: -0.01699014, y: 0.024105364, z: -0.35957313, w: 0.9326508}
       scale: {x: 1.0000004, y: 1.0000002, z: 0.9999998}
     - name: RigRLeg1
       parentName: RigPelvis
-      position: {x: -0.0054754647, y: 0.000000037695397, z: -0.20675258}
+      position: {x: -0.08213196, y: 0.00000056543087, z: -3.1012874}
       rotation: {x: 0.022955857, y: 0.998769, z: 0.043520946, w: 0.0062843612}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: RigRLeg2
       parentName: RigRLeg1
-      position: {x: -0.07796983, y: 0, z: 0}
+      position: {x: -1.1695473, y: 0, z: 0}
       rotation: {x: 0.036311876, y: 0.030106578, z: 0.13800722, w: 0.9893074}
       scale: {x: 0.99999976, y: 1.0000002, z: 1}
     - name: RigRLegAnkle
       parentName: RigRLeg2
-      position: {x: -0.0828515, y: 0, z: 0}
+      position: {x: -1.2427722, y: 0, z: 0}
       rotation: {x: 0.016439011, y: -0.02383822, z: -0.35959738, w: 0.9326582}
       scale: {x: 1.0000002, y: 0.9999997, z: 0.99999994}
     - name: RigSpine1
@@ -522,32 +522,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: RigSpine2
       parentName: RigSpine1
-      position: {x: -0.08259889, y: 0, z: 2.03196e-15}
+      position: {x: -1.2389832, y: 0, z: 3.0479396e-14}
       rotation: {x: -7.1054274e-15, y: 1.2300172e-14, z: -7.1054274e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RigSpine3
       parentName: RigSpine2
-      position: {x: -0.08259889, y: 0, z: 2.03196e-15}
+      position: {x: -1.2389832, y: 0, z: 3.0479396e-14}
       rotation: {x: 0, y: 1.2300171e-14, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRibcage
       parentName: RigSpine3
-      position: {x: -0.08259889, y: 0, z: 2.0319622e-15}
+      position: {x: -1.2389832, y: 0, z: 3.0479427e-14}
       rotation: {x: -7.1054274e-15, y: -1.3271574e-14, z: -7.1054274e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RigLArm1
       parentName: RigRibcage
-      position: {x: -0.050908376, y: -0.14383352, z: 0.36017928}
+      position: {x: -0.7636253, y: -2.157502, z: 5.402688}
       rotation: {x: 0.026432058, y: 0.7270753, z: 0.007947356, w: 0.6860028}
       scale: {x: 1, y: 1, z: 0.99999994}
     - name: RigLArm2
       parentName: RigLArm1
-      position: {x: -0.14068405, y: -0.00000037193306, z: 0.000000076293965}
+      position: {x: -2.1102602, y: -0.0000055789947, z: 0.0000011444092}
       rotation: {x: -0.0067441906, y: -0.009746476, z: -0.053771667, w: 0.99848294}
       scale: {x: 0.99999934, y: 1.0000005, z: 1}
     - name: RigLArmPalm
       parentName: RigLArm2
-      position: {x: -0.124250755, y: -0.0000003623963, z: 0.00000011444095}
+      position: {x: -1.8637606, y: -0.0000054359434, z: 0.0000017166136}
       rotation: {x: 0.7105726, y: 0.003979914, z: 0.03640056, w: 0.7026704}
       scale: {x: 0.99999964, y: 1.0000001, z: 1.0000001}
     - name: RigNeck1
@@ -557,62 +557,62 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: RigNeck2
       parentName: RigNeck1
-      position: {x: -0.061144643, y: -9.094949e-15, z: 1.504179e-15}
+      position: {x: -0.9171695, y: -1.3642421e-13, z: 2.2562681e-14}
       rotation: {x: 0, y: 1.2300171e-14, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RigHead
       parentName: RigNeck2
-      position: {x: -0.061144643, y: 0, z: 1.5041812e-15}
+      position: {x: -0.9171695, y: 0, z: 2.2562711e-14}
       rotation: {x: -7.1054274e-15, y: -1.3271574e-14, z: -7.1054274e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RigJaw
       parentName: RigHead
-      position: {x: 0.2930227, y: -0.0015577753, z: 3.032924e-10}
+      position: {x: 4.395339, y: -0.023366617, z: 0.0000000045493853}
       rotation: {x: -4.019437e-14, y: -0.0000001376788, z: -0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRArm1
       parentName: RigRibcage
-      position: {x: -0.050908443, y: -0.14383352, z: -0.36017928}
+      position: {x: -0.7636265, y: -2.157502, z: -5.402688}
       rotation: {x: -0.026907448, y: -0.7149493, z: 0.007824205, w: 0.69861454}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRArm2
       parentName: RigRArm1
-      position: {x: -0.14048737, y: 0.00000014305118, z: 0.000000038146982}
+      position: {x: -2.1073105, y: 0.0000021457672, z: 0.0000005722046}
       rotation: {x: 0.007690811, y: -0.0077262833, z: -0.05412877, w: 0.9984745}
       scale: {x: 1.0000002, y: 0.9999999, z: 0.99999994}
     - name: RigRArmPalm
       parentName: RigRArm2
-      position: {x: -0.12425082, y: 0.00000011444095, z: 0.000000038146982}
+      position: {x: -1.8637619, y: 0.0000017166136, z: 0.0000005722046}
       rotation: {x: -0.7105711, y: -0.003978121, z: 0.036399465, w: 0.702672}
       scale: {x: 1.0000001, y: 0.99999994, z: 1}
     - name: RigPelvisGizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: 3.569714e-14, y: 0.21609426, z: -0.00000013477933}
+      position: {x: 5.35457e-13, y: 3.2414136, z: -0.0000020216892}
       rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRArm1Gizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: 0.36017928, y: 0.5147994, z: -0.14383362}
+      position: {x: 5.4026885, y: 7.7219887, z: -2.157504}
       rotation: {x: 0.025533196, y: 0.6972391, z: 0.71632475, w: -0.00919832}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRArm2Gizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: 0.5004598, y: 0.51164854, z: -0.1507747}
+      position: {x: 7.506895, y: 7.6747265, z: -2.26162}
       rotation: {x: -0.0067822095, y: 0.70313734, z: 0.7101707, w: 0.03477994}
       scale: {x: 1.0000001, y: 0.99999994, z: 1}
     - name: RigRArmPalmGizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: 0.6243985, y: 0.50669575, z: -0.14350067}
+      position: {x: 9.365975, y: 7.6004353, z: -2.1525095}
       rotation: {x: -0.0010598232, y: -0.010443918, z: 0.999939, w: -0.0034328806}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: RigRibcageGizmo
       parentName: Boximon Main Rig(Clone)
-      position: {x: 3.569714e-14, y: 0.46389103, z: -0.00000017515055}
+      position: {x: 5.35457e-13, y: 6.9583635, z: -0.0000026272573}
       rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
       scale: {x: 1, y: 1, z: 1}
     - name: RigRLegPlatform
       parentName: Boximon Main Rig(Clone)
-      position: {x: 0.21196505, y: -2.2015033e-14, z: -0.000000045870177}
+      position: {x: 3.179475, y: -3.3022546e-13, z: -0.0000006880526}
       rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
@@ -622,7 +622,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 15
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
