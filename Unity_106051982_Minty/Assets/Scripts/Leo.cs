@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Leo : MonoBehaviour
 {
@@ -15,17 +13,14 @@ public class Leo : MonoBehaviour
     public bool mission;
     [Header("玩家名稱")]
     public string _name = "leo";
-    #endregion
-
-    
-
-  
-   
     public Transform tran;
     public Rigidbody rig;
     public Animator ani;
     [Header("catch")]
-    public Rigidbody RigCatch;
+    public Rigidbody rigCatch;
+    #endregion
+
+   
 
     private void Update()
     {
@@ -37,17 +32,15 @@ public class Leo : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         print(other.name);
-        if (other.name == "sword" && ani.GetCurrentAnimatorStateInfo(0).IsName("take"))
+        if(other.name == "Apple" && ani.GetCurrentAnimatorStateInfo(0).IsName("Take"))
         {
-            Physics.lgnoreCollision(other, GetComponent<Collider>());
-            other.GetComponet<HingeJoint>().connectedBody = rigCatch;
+            other.GetComponent<HingeJoint>().connectedBody = rigCatch;
         }
     }
 
-
     #region 移動
     private void Walk()
-    {   if (ani.GetCurrentAnimatorStateInfo(0).IsName("take")) return;
+    {   if (ani.GetCurrentAnimatorStateInfo(0).IsName("Take")) return;
 
         float v = Input.GetAxis("Vertical");
         rig.AddForce(tran.forward * speed * v * Time.deltaTime);
