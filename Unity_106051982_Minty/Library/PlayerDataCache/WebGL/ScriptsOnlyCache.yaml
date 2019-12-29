@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Scenes/GAME.unity:
     - Class: 1
@@ -498,4 +497,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/GAME.unity
-  playerPath: C:/Users/user/Documents/GitHub/Web
+  playerPath: C:/Users/user/Documents/GitHub/ASIA_Unity_106051982_Minty/Web
