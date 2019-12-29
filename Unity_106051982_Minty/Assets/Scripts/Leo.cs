@@ -16,9 +16,16 @@ public class Leo : MonoBehaviour
     [Header("玩家名稱")]
     public string _name = "leo";
     #endregion
+
+    
+
+  
+   
     public Transform tran;
     public Rigidbody rig;
     public Animator ani;
+    [Header("catch")]
+    public Rigidbody RigCatch;
 
     private void Update()
     {
@@ -26,6 +33,19 @@ public class Leo : MonoBehaviour
         Walk();
         Take();
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        print(other.name);
+        if (other.name == "sword" && ani.GetCurrentAnimatorStateInfo(0).IsName("take"))
+        {
+            Physics.lgnoreCollision(other, GetComponent<Collider>());
+            other.GetComponet<HingeJoint>().connectedBody = rigCatch;
+        }
+    }
+
+
+    #region 移動
     private void Walk()
     {   if (ani.GetCurrentAnimatorStateInfo(0).IsName("take")) return;
 
@@ -47,4 +67,6 @@ public class Leo : MonoBehaviour
             ani.SetTrigger("take");
         }
     }
+    #endregion
+
 }
